@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+        header {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 30px 10%;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #d2a679;
+            height: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2 {
+            padding-bottom: 2%;
+            font-family:Arial, Helvetica, sans-serif;
+            color: #130d06;
+            text-align: center;
+        }
+        li, a, button {
+            font-family:"Carter one", sans-serif;
+            font-weight: 500;
+            font-size: 17px;
+            color: #edf0f1;
+            text-decoration: none;
+        }
+        .nav-links {
+            list-style: none;
+        }
+        .nav-links li {
+            display: inline-block;
+            padding: 0px 20px;
+        }
+        .nav-links li a {
+            transition: all 0.3s ease 0s;
+        }
+        .nav-links li a:hover {
+            color: #9b6631;
+            text-decoration: none;
+        }
+        button {
+            margin-left: 20px;
+            padding: 9px 25px;
+            background-color: rgba(153, 102, 51, 1);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+        }
+        button:hover {
+            background-color: rgba(153, 102, 51, 0.8);
+        }
+        .navbar-logo {
+            font-family:"Carter one", sans-serif;
+            color: #4d3319;
+            margin-right: auto;
+            font-size: 40px;
+        }
+        .footer {
+          background-color: #4d3319;
+          position: absolute;
+          text-align: center;
+          bottom: 0;
+          width: 100%;
+          height: 10%; /* Set the fixed height of the footer here */
+          line-height: 60px; /* Vertically center the text there */
+        }
+        input[type=text], select, textarea {
+            width: 100%;
+            height: 40%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        .container {
+            border-radius: 5px;
+            background-color: #edf0f1;
+            padding: 20px;
+        } 
+    </style>
+
+    <title>Ale</title>
+  </head>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="navbar-logo" href="#">Alejandro Fortner</div>
+    <header class="header"></header>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+
+        <ul class="nav-links">
+
+            <li>
+              <a href="main.html">About Me</a>
+            </li>
+
+            <li>
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+        </ul>
+              <a class="cta" href="contact.html"><button>Contact</button></a>  
+        </div>
+      </nav>
+    </header>
+<body class="d-flex flex-column">
+    
+    <div class="container">
+        <form>
+            <h2>Contact Me</h2>
+      
+          <label for="name">Name</label>
+          <input type="text" id="fname" name="fullname" placeholder="Your name..">
+      
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+            <small id="emailHelp" class="form-text"></small>
+            
+          </div>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:100px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <footer class="footer mt-auto py-3">
+        <div class="container-1">
+          <span class="text-muted">&copy;Copyright</span>
+        </div>
+      </footer>
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
